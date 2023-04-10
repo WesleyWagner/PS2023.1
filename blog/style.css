@@ -1,0 +1,214 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(41, 41, 41);
+  margin: 0;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 25px;
+  box-sizing: border-box;
+  /* background-color: #FFF; */
+  color: aliceblue;
+}
+
+.content {
+  min-height: calc(100vh); /* altura mínima do conteúdo da página, considerando o tamanho do footer */
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Estilos do header */
+header {
+  background-color: #6478af;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header a {
+  color: #fff;
+}
+
+/* Estilos do menu */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5465d4;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-bottom: solid #AAA 1px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  transition: all 200ms;
+}
+nav ul li a:hover {
+  color: #fff;
+  text-shadow: 2px 2px 4px #E8F5DF;
+}
+
+/* Estilos do footer */
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer ul {
+  background-color: #333;
+}
+
+footer ul a {
+  color: #fff;
+
+}
+footer a {
+  color: #AAA;
+
+}
+footer a:hover {
+  text-shadow: 0px 0px 8px #FFF;
+
+}
+
+/* Estilos específicos para a página de perfil */
+.profile-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profile-info img {
+  /* margin: auto; */
+  /* display: block; */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* margin-right: 50px; */
+  box-shadow: 0px 0px 10px #FFF;
+  justify-content: center;
+}
+
+.profile-info h2 {
+  font-size: 28px;
+}
+
+.profile-info p {
+  margin: 10px 0;
+}
+
+.profile-info .skills {
+  margin-top: 30px;
+}
+
+.profile-info .skills li {
+  background-color: #555;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.profile-info .skills li a{
+  color: #AAA;
+}
+
+/* Estilos específicos para a página de posts */
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.post-list .post {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.post-list .post h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.post-list .post p {
+  margin: 10px 0;
+}
+
+/* Estilos específicos para a página de criação de posts */
+.post-form {
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #333;
+}
+
+#logoInclude {
+  width: 10vb;
+  margin: 10px;
+}
