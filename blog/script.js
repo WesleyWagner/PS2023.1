@@ -18,15 +18,15 @@ function loadImage() {
 
   // API do site unsplash para solicitar uma imagem aleatória com .
 
-  const imageUrl = `https://source.unsplash.com/random?sig=${(Math.random() * 10000).toFixed(0)}`;
+  const imageUrl = `https://source.unsplash.com/random?random=${(Math.random() * 10000).toFixed(0)}`;
 
   console.log(imageUrl);// Mostrar 
   imageElement.src = imageUrl;
   // Ajustar o indice para o próximo <img>
   i++;
 
-  // Chamar loadImage após 1s 
-  setTimeout(loadImage, 1000);
+  // Chamar loadImage após 3s 
+  setTimeout(loadImage, 3000);
 }
 
 loadImage();
