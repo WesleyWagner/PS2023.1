@@ -2,7 +2,7 @@
 
 Este é um projeto desenvolvido como parte de um desafio proposto pela Include Engenharia, que tem como objetivo avaliar as habilidades dos candidatos em HTML, CSS e JavaScript, linguagens de programação básicas para o desenvolvimento web e mobile.
 
-O objetivo do projeto é criar um <a href="/blog">blog pessoal</a> centrado no tema do Big Brother Brasil 23, explicando por meio de um vídeo o "Porquê devo entrar na Include?". O blog deve ter uma página dedicada à apresentação da empresa, uma página de apresentação do candidato, com seu perfil acadêmico e técnico, e uma página com o perfil pessoal do candidato, mostrando seus interesses e curiosidades.
+O objetivo do projeto é criar um <a href="https://wesleywagner.github.io/PS2023.1/blog/">blog pessoal</a> centrado no tema do Big Brother Brasil 23, explicando por meio de um vídeo o "Porquê devo entrar na Include?". O blog deve ter uma página dedicada à apresentação da empresa, uma página de apresentação do candidato, com seu perfil acadêmico e técnico, e uma página com o perfil pessoal do candidato, mostrando seus interesses e curiosidades.
 
 ## Objetivo Específico
 
